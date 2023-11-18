@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="h-[70dvh] grid place-items-center bg-gradient-to-r from-sky-500 to-indigo-500">
+    <div>
+      <div
+        class="grid bg-white py-12 px-12 grid-cols-[1fr_auto] max-sm:grid-rows-2 max-sm:grid-cols-1 max-sm:gap-y-4 gap-x-10 rounded-md justify-center">
+        <input
+          type="text"
+          id="feild"
+          placeholder="add things to do...."
+          class="placeholder:text-white placeholder:opacity-50 w-[20rem] py-2 px-3 rounded-sm bg-gradient-to-r from-sky-500 to-indigo-500 text-white focus:outline-none border-white border" />
+        <button
+          id="add"
+          class="py-2 px-12 active:scale-95 active:border-white bg-blue-600 border border-blue-950 hover:bg-blue-950 hover:border-blue-600 rounded-md text-white font-semibold">
+          Do
+        </button>
+      </div>
+      <div id="task" class="mt-6"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
